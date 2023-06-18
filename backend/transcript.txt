@@ -1,253 +1,503 @@
 1
-00:00:00,000 --> 00:00:05,520
-Hi, Hooman's here and welcome to another episode of Fast Tech Skills. In this video, we're going to
+00:00:00,000 --> 00:00:10,000
+A startup is a type of company, usually in the technology field, that allows mediocre men to feed their egos by exploiting the time, labor, or wealth of other people.
 
 2
-00:00:05,520 --> 00:00:12,880
-have a look at distributed systems. This is a very important approach to the modern computing
+00:00:10,000 --> 00:00:14,500
+Now, if you're watching this, there's a decent chance you want to create your own startup.
 
 3
-00:00:12,880 --> 00:00:18,160
-and I'm going to explain in a second why it's critical to the modern web and the services that
+00:00:14,500 --> 00:00:21,500
+Maybe you're a new grad, long-time software engineer, or a sociopath with an unquenchable desire for power and control.
 
 4
-00:00:18,160 --> 00:00:25,520
-we use on a day-to-day basis. So if you've ever used Facebook or Google or any of these services,
+00:00:21,500 --> 00:00:31,500
+Either way, everyone is welcome here, as long as you don't have a license.
+
+
+1
+00:00:00,000 --> 00:00:04,000
+and have no problem working 18 hours a day, 7 days a week.
+
+2
+00:00:04,000 --> 00:00:08,000
+First, let's talk about the difference between a startup and a traditional business.
+
+3
+00:00:08,000 --> 00:00:13,000
+In a traditional business, you provide a good or service to someone in exchange for money.
+
+4
+00:00:13,000 --> 00:00:16,000
+However, if you're stupid enough to start a company like this,
+
+5
+00:00:16,000 --> 00:00:20,000
+you'll only be able to provide a good life for your family and send your kids to college.
+
+6
+00:00:20,000 --> 00:00:22,000
+If you want to become the supreme ruler of the world,
+
+7
+00:00:22,000 --> 00:00:30,000
+and satisfy your quench for power by landing on a four-star rating,
+
+
+1
+00:00:00,000 --> 00:00:05,780
+list, there's only one way to do that. With a startup. In a startup, you sell
+
+2
+00:00:05,780 --> 00:00:11,780
+imaginary goods or services and lose money. Losing money is key because the
+
+3
+00:00:11,780 --> 00:00:15,420
+more money you lose, the hotter your startup and the more funding you'll be
+
+4
+00:00:15,420 --> 00:00:20,060
+able to get. And with that extra funding, you'll be able to extract even more
+
+5
+00:00:20,060 --> 00:00:24,620
+money from your users, basically providing you with a real-life infinite
+
+6
+00:00:24,620 --> 00:00:30,020
+money hand.
+
+
+1
+00:00:00,000 --> 00:00:01,000
+hack.
+
+2
+00:00:01,000 --> 00:00:04,620
+When founding your own startup, you'll first need to decide what your startup is going
+
+3
+00:00:04,620 --> 00:00:05,620
+to do.
+
+4
+00:00:05,620 --> 00:00:10,220
+Lucky for you, there are numerous fields that are incredibly hot in tech right now.
+
+5
+00:00:10,220 --> 00:00:12,060
+Have a really big lung capacity?
+
+6
+00:00:12,060 --> 00:00:13,060
+Try crypto.
+
+7
+00:00:13,060 --> 00:00:15,660
+Fan of how banks fuck over the little guy?
+
+8
+00:00:15,660 --> 00:00:16,660
+Fintech.
+
+9
+00:00:16,660 --> 00:00:18,420
+Wanna exploit the vulnerable?
+
+10
+00:00:18,420 --> 00:00:19,420
+Healthcare.
+
+11
+00:00:19,420 --> 00:00:21,700
+Wanna exploit the already exploited?
+
+12
+00:00:21,700 --> 00:00:24,340
+Do anything with on-demand in the name.
+
+13
+00:00:24,340 --> 00:00:25,340
+Wanna do evil shit?
+
+
+1
+00:00:00,000 --> 00:00:02,040
+it, AI.
+
+2
+00:00:02,040 --> 00:00:05,320
+Wanna do evil shit, but you dropped out of college?
+
+3
+00:00:05,320 --> 00:00:06,320
+Metaverse.
+
+4
+00:00:06,320 --> 00:00:11,280
+Of course, these will all be irrelevant in 3 years, when the new Gidgety Do Biddley Bop
+
+5
+00:00:11,280 --> 00:00:13,520
+comes out, so you better get to working.
+
+6
+00:00:13,520 --> 00:00:18,240
+You'll also have to decide if you're going to be an enterprise or consumer company.
+
+7
+00:00:18,240 --> 00:00:22,160
+Enterprise companies sell their product to other enterprise companies, in a never-ending
+
+8
+00:00:22,160 --> 00:00:33,120
+cycle of keep-the-rich-people's-money-away-from-poorness.
+
+
+1
+00:00:00,000 --> 00:00:05,200
+people. Consumer companies, on the other hand, extract money from the poor people to put into
+
+2
+00:00:05,200 --> 00:00:10,160
+the aforementioned cycle. Now that you've picked your field, it's time to turn your idea into a
+
+3
+00:00:10,160 --> 00:00:16,240
+reality. A well-known principle in startups is to sell before you build, which basically means
+
+4
+00:00:16,240 --> 00:00:21,840
+make up some fake shit and get people's money for it. After stealing people's money, I mean,
+
+5
+00:00:21,840 --> 00:00:30,240
+receiving their advance payment for the beta, it's time to get to work.
+
+
+1
+00:00:00,000 --> 00:00:04,380
+If you're a technical founder, you can dive right in. If you're not technical,
+
+2
+00:00:04,380 --> 00:00:10,600
+you're going to need to trick some unsuspecting CS grad into doing the work for you with promises of untold riches and
+
+3
+00:00:10,920 --> 00:00:16,240
+totally fair stock options. In those early moments, you'll be full of excitement and energy,
+
+4
+00:00:16,680 --> 00:00:19,600
+chomping at the bit to do everything you can for your startup.
+
+5
+00:00:19,600 --> 00:00:30,600
+Every line of code you write brings a fresh new coat of paint to your vision. Every gig of your life.
+
+
+1
+00:00:00,000 --> 00:00:06,400
+hit commit dash a dash m nothing's gonna ever stop me now motherfuckers like a line of cocaine
+
+2
+00:00:06,400 --> 00:00:12,200
+directly into your hippocampus as you finish integrating the stripe and instagram apis
+
+3
+00:00:12,200 --> 00:00:17,680
+into your back end you let out an ecstatic cry of joy all that's left is to port your
+
+4
+00:00:17,680 --> 00:00:24,520
+figma design to react what's a few more hours you push your code live to AWS and are finally
+
+5
+00:00:24,520 --> 00:00:30,040
+able to run.
+
+
+1
+00:00:00,000 --> 00:00:03,760
+rest on a grave in the universe.
+
+2
+00:00:03,760 --> 00:00:07,440
+Three hours later, all of which you've spent trying to figure out why the console keeps
+
+3
+00:00:07,440 --> 00:00:12,240
+telling you to go to hell and fuck yourself with an ethernet cable, you'll want to die.
+
+4
+00:00:12,240 --> 00:00:13,880
+Living the dream, baby.
+
+5
+00:00:13,880 --> 00:00:18,400
+The key to success when working at a startup is to have negative work-life balance.
+
+6
+00:00:18,400 --> 00:00:22,520
+Or, as I like to call it, work.
+
+7
+00:00:22,520 --> 00:00:24,640
+Oh, what's that?
+
+8
+00:00:24,640 --> 00:00:25,640
+You want to work?
+
+
+1
+00:00:00,000 --> 00:00:05,080
+watch Netflix after work hours? Get that weak shit out of here. You know you could have
+
+2
+00:00:05,080 --> 00:00:09,800
+spent those hours working, right? Here's what a typical day at a startup looks like.
+
+3
+00:00:09,800 --> 00:00:15,040
+8am sharp, you burst through the door, fill those coffee in hand, and make your way past
+
+4
+00:00:15,040 --> 00:00:20,920
+the altar of neoliberalism to your desk. From 8 to 9, you check your emails, slack, Jira
+
+5
+00:00:20,920 --> 00:00:37,960
+tickets, and generally just bullshit around pretending to do work while you wake up.
+
+
+1
+00:00:00,000 --> 00:00:05,680
+up. From 9 to 9.30, you have your standup with your team, where everyone tries to bullshit
+
+2
+00:00:05,680 --> 00:00:09,840
+a reason why they haven't finished the shit they said they would finish last week.
+
+3
+00:00:09,840 --> 00:00:13,640
+After standup, you check out the bug that rolled in last night, realize you can't
+
+4
+00:00:13,640 --> 00:00:18,520
+replicate it, spend 2 hours testing every permutation of every button on your site and
+
+5
+00:00:18,520 --> 00:00:22,600
+reading the one sentence spell report like it's the da Vinci code, go to the designated
+
+6
+00:00:22,600 --> 00:00:37,880
+frustration conference room and scream into a pillow.
+
+
+1
+00:00:00,000 --> 00:00:05,280
+and then come back and give up. At 12 it's time for your 8 minute lunch break.
+
+2
+00:00:05,280 --> 00:00:10,880
+Let's go people that user data isn't going to sell itself. After lunch you
+
+3
+00:00:10,880 --> 00:00:14,760
+work until 2 on the new feature, being interrupted every 2 minutes by a
+
+4
+00:00:14,760 --> 00:00:18,480
+support request or to provide feedback on something that doesn't need your
+
+5
+00:00:18,480 --> 00:00:21,880
+feedback. From 2 to 4 you've got an architecture meeting to plan the next
+
+6
+00:00:21,880 --> 00:00:25,360
+set of features. Where a lot of pedantic arguing happens and no one's really
+
+
+1
+00:00:00,000 --> 00:00:02,400
+No specs actually get written.
+
+2
+00:00:02,400 --> 00:00:06,880
+From 4-7 you get nothing done, but have to pretend to do work, since it's more important
+
+3
+00:00:06,880 --> 00:00:11,920
+to be able to say you're working 100 hour weeks than actually be smart about your productivity.
+
+4
+00:00:11,920 --> 00:00:15,760
+Three months and the end of all communication with family and friends later, you'll finally
+
+5
+00:00:15,760 --> 00:00:18,440
+have a 51% debugged product.
+
+6
+00:00:18,440 --> 00:00:24,040
+Your DAOs, KPIs, TAMs, PPs, and DsNuts are looking good.
+
+7
+00:00:24,040 --> 00:00:25,040
+You think to yourself, I'm going to get a job.
+
+
+1
+00:00:00,000 --> 00:00:04,200
+We're losing thousands of dollars per week.
+
+2
+00:00:04,200 --> 00:00:05,760
+Perfect.
+
+3
+00:00:05,760 --> 00:00:08,560
+We got him exactly where we want him.
+
+4
+00:00:08,560 --> 00:00:12,920
+Time to go fundraise and take this to the next level.
+
+5
+00:00:12,920 --> 00:00:16,680
+Fundraising is when you sell your company's stock for money, and is an important part
+
+6
+00:00:16,680 --> 00:00:18,320
+of the startup life cycle.
+
+7
+00:00:18,320 --> 00:00:25,000
+After all, your $6,000 Bay Area rent and $20 sweetgreens aren't going to pay for themselves.
+
+8
+00:00:25,000 --> 00:00:28,000
+If you want to make a difference, you need to be a good investor.
+
+
+1
+00:00:00,000 --> 00:00:03,060
+If you don't have rich parents or can't convince your broke parents to take out a
+
+2
+00:00:03,060 --> 00:00:06,720
+second mortgage, you've really only got one option.
+
+3
+00:00:06,720 --> 00:00:07,720
+VCs.
+
+4
+00:00:07,720 --> 00:00:14,120
+VCs are typically known as venture capitalists, but I like to call them VCMs.
+
+5
+00:00:14,120 --> 00:00:16,120
+Vampiric conmen.
+
+6
+00:00:16,120 --> 00:00:20,300
+The job of a VC is to be a steward of billions of dollars.
+
+7
+00:00:20,300 --> 00:00:25,520
+Not to do stupid shit like build affordable housing or feed the hungry, but to be a good
+
+
+1
+00:00:00,000 --> 00:00:04,720
+to give to psychotic 20 and 30 year olds to build shit on the internet.
+
+2
+00:00:04,720 --> 00:00:07,200
+For VCs, the appeal is clear.
+
+3
+00:00:07,200 --> 00:00:12,400
+You're another layer of bullshit away from doing any real work, and you get to reap even
+
+4
+00:00:12,400 --> 00:00:13,880
+bigger rewards.
+
+5
+00:00:13,880 --> 00:00:18,360
+Now, when you hit up the libertarian white guy club to ask for money, you're going to
+
+6
+00:00:18,360 --> 00:00:20,200
+need a pitch deck.
+
+7
+00:00:20,200 --> 00:00:37,720
+A pitch deck is your way to communicate to the VC why they should invest in your company.
+
+
+1
+00:00:00,000 --> 00:00:05,440
+The key thing to remember when making a pitch deck is to be as delusional as possible.
+
+2
+00:00:05,440 --> 00:00:09,680
+Just say fuck it and draw an exponential curve for all your graphs and talk about how the
+
+3
+00:00:09,680 --> 00:00:14,720
+space you're going to be in is going to grow to a hundred bajillion dollar market by 2030.
+
+4
+00:00:14,720 --> 00:00:19,760
+In the actual pitch meeting with theses, don't be intimidated by their LaCroix or fancy ass
+
+5
+00:00:19,760 --> 00:00:20,760
+bathrooms.
+
+6
+00:00:20,760 --> 00:00:25,640
+In fact, during your pitch, I recommend talking like Donald Trump and making grand jokes about
+
+
+1
+00:00:00,000 --> 00:00:04,320
+Randoyce unverifiable statements to power move those bitches.
+
+2
+00:00:04,320 --> 00:00:08,800
+All in all, working in a startup isn't as glamorous as it seems.
+
+3
+00:00:08,800 --> 00:00:14,960
+In fact, there are much, much, MUCH easier ways to make money.
+
+4
+00:00:14,960 --> 00:00:20,660
+But with perseverance, hard work, and lots of single guy privilege, you too can found
+
+5
+00:00:20,660 --> 00:00:22,680
+your own successful startup.
+
+6
+00:00:22,680 --> 00:00:29,680
+After all, when you concentrate wealth in the hands of others, you can't be sure
 
 
 1
 00:00:00,000 --> 00:00:06,000
-services, you probably know that these are very, very big services.
+of a vast minority, liberally hand out money to another, reckless, ethically barren minority,
 
 2
-00:00:06,000 --> 00:00:09,200
-They are like very large scale services.
-
-3
-00:00:09,200 --> 00:00:13,360
-And these services get a lot of requests all over the world.
-
-4
-00:00:13,360 --> 00:00:17,160
-There are people who are trying to access these services.
-
-5
-00:00:17,160 --> 00:00:20,880
-So there is one big problem.
-
-6
-<<<<<<< HEAD
-00:00:20,880 --> 00:00:31,800
-If you want to serve that many people at the same time with one service...
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-00:00:20,880 --> 00:00:32,440
-If you want to serve that many people at the same time with one service, you have to have
-
-7
-00:00:32,440 --> 00:00:35,440
-a lot of people.
-=======
-00:00:20,880 --> 00:00:36,920
-=======
-00:00:20,880 --> 00:00:32,360
->>>>>>> 3fdf5293c2355778c59c7828ea20723a5e50f810
-If you want to serve that many people at the same time with one service, you have to have
->>>>>>> ab60e48f4b9431d2d281699e39ce908772c61b38
-
-7
-00:00:32,360 --> 00:00:35,360
-a lot of people.
->>>>>>> 128d2b019bb36a3f3ed9b01d94c892c8a6e0c2fd
-
-
-1
-00:00:00,000 --> 00:00:06,520
-one machine then it's basically impossible. We cannot build a computer that can serve
-
-2
-00:00:06,520 --> 00:00:13,520
-everyone at the same time. So if we actually consider for example these services isolated
-
-3
-00:00:15,160 --> 00:00:22,160
-on the internet and we get lots of requests coming in like this. This could be like millions
-
-4
-<<<<<<< HEAD
-00:00:22,160 --> 00:00:25,240
-and millions of requests
-=======
-00:00:22,160 --> 00:00:29,160
-<<<<<<< HEAD
-and millions of requests for like, mundane tasks on powerful phones to help them do things
-=======
-<<<<<<< HEAD
-and millions of requests or millions of requests over the internet but a smartphone a desktop
->>>>>>> ab60e48f4b9431d2d281699e39ce908772c61b38
-=======
-and millions of requests, millions and millions of requests.
->>>>>>> 3fdf5293c2355778c59c7828ea20723a5e50f810
->>>>>>> 128d2b019bb36a3f3ed9b01d94c892c8a6e0c2fd
-
-
-1
-00:00:00,000 --> 00:00:06,840
-per day even sometimes billions who knows. So the problem is that if you want
-
-2
-00:00:06,840 --> 00:00:10,560
-to build a computer that can fulfill all these services then there are major
-
-3
-00:00:10,560 --> 00:00:17,720
-issues. First there is no computer that can handle all those requests even if we
-
-4
-00:00:17,720 --> 00:00:21,640
-want to build a custom computer that would be a custom solution to this
-
-5
-00:00:21,640 --> 00:00:27,240
-problem and the other...
-
-
-1
-00:00:00,000 --> 00:00:05,700
-massive issue with this approach would be that when the number of requests increase
-
-2
-00:00:06,020 --> 00:00:09,520
-Then we need to build another computer. It's not scalable
-
-3
-00:00:10,120 --> 00:00:15,080
-So the idea of distributed systems is that we distribute the load
-
-4
-00:00:15,640 --> 00:00:18,840
-for example the number of requests that we get on
-
-5
-00:00:18,840 --> 00:00:25,360
-Interconnected as separate computers that talk to each other
-
-
-1
-00:00:00,000 --> 00:00:05,000
-each other and run the applications together. So they're computers on a
-
-2
-00:00:05,000 --> 00:00:10,640
-network on an internal network connected to each other and they handle different
-
-3
-00:00:10,640 --> 00:00:17,360
-portions of the load. So this way we can simply scale up if we get more and more
-
-4
-00:00:17,360 --> 00:00:31,360
-requests then we can simply add more computers to our distributed system.
-
-
-1
-00:00:00,000 --> 00:00:06,240
-there is another massive advantage to this approach is that let's say that we
-
-2
-00:00:06,240 --> 00:00:11,480
-have one of these services running and it gets a lot of requests suddenly one
-
-3
-00:00:11,480 --> 00:00:17,720
-of these computers stops working what's gonna happen is all these other ones
-
-4
-00:00:17,720 --> 00:00:23,140
-automatically will find out that this computer is not active anymore so they
-
-5
-<<<<<<< HEAD
-00:00:23,140 --> 00:00:32,400
-handle the data
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-00:00:23,140 --> 00:00:30,140
-handle that bank
-=======
-00:00:23,140 --> 00:00:32,820
-handle that particular request
->>>>>>> ab60e48f4b9431d2d281699e39ce908772c61b38
-=======
-00:00:23,140 --> 00:00:27,580
-handle that the computer
->>>>>>> 3fdf5293c2355778c59c7828ea20723a5e50f810
->>>>>>> 128d2b019bb36a3f3ed9b01d94c892c8a6e0c2fd
-
-
-1
-00:00:00,000 --> 00:00:05,160
-specific machines workload and the application is kind of running on all of
-
-2
-00:00:05,160 --> 00:00:10,840
-them in a virtual machine so that is a massive advantage when it comes to
-
-3
-00:00:10,840 --> 00:00:16,600
-scalability and building applications that can fulfill millions and millions
-
-4
-00:00:16,600 --> 00:00:23,680
-of users at the same time so distributed systems is a very very important approach
-
-5
-00:00:23,680 --> 00:00:30,200
-to the modern computer.
-
-
-1
-00:00:00,000 --> 00:00:08,400
-and as you can see it allows us to scale up and it's reliable
-
-2
-00:00:08,400 --> 00:00:16,540
-and it's an approach that actually makes sense and it's visible so as you can see
-
-3
-00:00:16,540 --> 00:00:22,640
-distributed systems is a very exciting approach to the modern computing.
-
-4
-00:00:22,640 --> 00:00:30,440
-If you enjoyed this video check out this other video
-
-
-1
-00:00:00,000 --> 00:00:06,540
-video that I made and it's full of awesome content that you can learn in no
-
-2
-00:00:06,540 --> 00:00:12,020
-time as you did with this video. Also if you think that you like my videos then
-
-3
-00:00:12,020 --> 00:00:17,980
-simply subscribe to my channel I'm sure you're gonna love the videos that I
-
-4
-00:00:17,980 --> 00:00:24,020
-publish if you like this one already and I'll be seeing you in the next video
-
-5
-00:00:24,020 --> 00:00:32,020
-thanks
-
-
-1
-00:00:00,000 --> 00:00:04,400
-watching, Hooman's here, and have a good day!
+00:00:06,000 --> 00:00:21,840
+and then have no regulations on what they can do, what could go wrong?
 
 

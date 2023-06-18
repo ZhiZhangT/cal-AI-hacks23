@@ -2,8 +2,6 @@ from fastapi import FastAPI, UploadFile, File
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 
-
-
 from video_processing import process_video
 from audio_processing import process_audio
 
@@ -59,10 +57,11 @@ async def get_upload_video():
 
 
 @app.post("/getTimestamps/")
-async def get_timestamps(filename):
+async def get_timestamps():
 
     print("getting timestamps...")
 
+    '''
     # call Hume's Facial Recognition API with a local video file, to get a json file downloaded
     
     client = HumeBatchClient(credentials.HUME_API_KEY)
@@ -76,7 +75,7 @@ async def get_timestamps(filename):
     details = job.await_complete()
     job.download_predictions("predictions.json")
     print("Predictions downloaded to predictions.json")
-
+    '''
     
     # read downloaded JSON file
     with open('predictions.json') as user_file:
@@ -194,7 +193,7 @@ async def get_timestamps(filename):
     print(result_dict)
 
     # Write to a txt file and save it
-    with open('transcript_short.txt', 'w') as f:
+    with open('recording/transcript_short.txt', 'w') as f:
         for key, value in result_dict.items():
             # create timedelta and convert it into string
             td_str = str(timedelta(seconds=key)) + ":"
@@ -226,7 +225,7 @@ async def upload_recording(file: UploadFile = File(...)):
     # Process the mp4 file
     #audio_path = process_video(mp4_path)
     #transcript = process_audio(audio_path)
-    get_timestamps(file.filename)
+    get_timestamps(webcam_filename= file.filename)
     return {"filename": file.filename}#, "transcript": transcript}
     #current_dir = os.path.dirname(os.path.realpath(__file__))
     #video_path = os.path.join(current_dir, "recording", file.filename)
@@ -236,8 +235,9 @@ async def upload_recording(file: UploadFile = File(...)):
     #transcript = process_audio(audio_path)
     #return {"filename": file.filename, "transcript": transcript}
 
-openai.api_key = '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'
+openai.api_key = credentials.OPENAI_API_KEY
 
+'''
 @app.get("/generate_questions")
 async def generate_questions():
     with open('transcript_reduced.txt', 'r') as file:
@@ -273,3 +273,4 @@ async def validate_answer(question: str = Body(...), answer: str = Body(...)):
     validation = response.choices[0].message['content']
     
     return {"validation": validation}
+'''
